@@ -35,5 +35,8 @@ PRIMARY KEY (id)
 
 #execute_query(conn, create_vault_table)
 
+add_items_query = "INSERT INTO vaults (id, number, code, content, owner) VALUES ('1', '100', '12345', 'This is secret content from vault 1', 'Al Capone')"
+#execute_query(conn, add_items_query)
 
-
+add_other_item_query = "INSERT INTO vaults (id, number, code, content, owner) VALUES ('2', '200', '98765', 'This is secret content from vault 2', 'Cleopatra')"
+execute_query(conn, add_other_item_query)
