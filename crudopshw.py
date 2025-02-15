@@ -33,5 +33,7 @@ owner VARCHAR(30) NOT NULL,
 PRIMARY KEY (id)
 )"""
 
-execute_query(conn, create_vault_table)
+#execute_query(conn, create_vault_table)
+
+
 
